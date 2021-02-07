@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+* {
+    font-family: 'Merienda', cursive;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: -webkit-gradient(linear, left bottom, left top, from(#FDBB2D), to(#3A1C71));
+    background: linear-gradient(0deg, #FDBB2D 0%, #3A1C71 100%);
+    height: 100vh;
+    color: #f5f4f4;
+    padding: 1rem;
+}
+
+body main {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    width: 50vw;
+    height: 95vh;
+    position: relative;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.096);
+    border-radius: 25px;
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+body main #title {
+    font-size: 36px;
+}
+
+body main #description {
+    font-size: 6px;
+}
+
+body main form {
+    position: relative;
+}
+
+body main form label {
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+body main form input,
+body main form select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #3A1C71;
+    color: #f5f4f4;
+}
+
+body main form input:focus,
+body main form select:focus {
+    outline: none;
+}
+
+body main form input::-webkit-input-placeholder,
+body main form select::-webkit-input-placeholder {
+    color: #f5f4f4;
+}
+
+body main form input:-ms-input-placeholder,
+body main form select:-ms-input-placeholder {
+    color: #f5f4f4;
+}
+
+body main form input::-ms-input-placeholder,
+body main form select::-ms-input-placeholder {
+    color: #f5f4f4;
+}
+
+body main form input::placeholder,
+body main form select::placeholder {
+    color: #f5f4f4;
+}
+
+body main form option {
+    background-color: #3A1C71;
+    color: #f5f4f4;
+}
+
+body main form .radio-cr {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 60px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+body main form .radio-cr input[type=radio]:checked+p {
+    color: #3A1C71;
+}
+
+body main form input[type=submit] {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: -10px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+    background-color: #FDBB2D;
+    color: #3A1C71;
+    cursor: pointer;
+    -webkit-transition: 500ms ease-in-out;
+    transition: 500ms ease-in-out;
+}
+
+body main form input[type=submit]:hover {
+    background-color: #3A1C71;
+    color: #FDBB2D;
+}
+
+body main form .cb-cr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+body main form .cb-cr input {
+    width: 30px;
+    margin-top: 3px;
+}
+
+body main form textarea {
+    width: 100%;
+    background-color: transparent;
+    color: #f5f4f4;
+    resize: none;
+    padding: 5px;
+    border: 1px solid #3A1C71;
+}
+
+body main form textarea::-webkit-input-placeholder {
+    color: #f5f4f4;
+}
+
+body main form textarea:-ms-input-placeholder {
+    color: #f5f4f4;
+}
+
+body main form textarea::-ms-input-placeholder {
+    color: #f5f4f4;
+}
+
+body main form textarea::placeholder {
+    color: #f5f4f4;
+}
+
+body main form textarea:focus {
+    outline: none;
+    border: 1px solid #3A1C71;
+}

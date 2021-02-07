@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <h1 id="title">XYZ Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+        <form action="#" method="GET" id="survey-form">
+            <label for="name" id="name-label">Enter your name:</label>
+            <input type="text" name="name" placeholder="Last-name First name" id="name" required>
+
+            <label for="email" id="email-label">Enter your email address:</label>
+            <input type="email" name="email" id="email" placeholder="abc@xyz.com" required>
+
+            <label for="number" id="number-label">Enter your age: (optional)</label>
+            <input type="number" name="number" id="number" placeholder="18" min="10" max="90">
+
+            <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
+            <select name="dropdown" id="dropdown">
+                <option value="student">Student</option>
+                <option value="ft-job">Full-time Job</option>
+                <option value="ft-learner">Full-time Learner</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="radio" id="radio-label">Would you recommend xyz to a friend?</label>
+            <div class="radio-cr">
+                <div>
+                    <input type="radio" name="radio" id="radio-yes" value="yes">
+                    <p>Yes</p>
+                </div>
+                <div>
+                    <input type="radio" name="radio" id="radio-no" value="no">
+                    <p>No</p>
+                </div>
+                <div>
+                    <input type="radio" name="radio" id="radio-maybe" value="maybe">
+                    <p>Maybe</p>
+                </div>
+            </div>
+
+            <label for="checkbox" id="checkbox-label">What you liked about the content?</label>
+            <div class="cb-cr">
+                <input type="checkbox" name="checkbox" id="c1" value="short-descriptive-lec">
+                <p>Short and descriptive lectures.</p>
+            </div>
+            <div class="cb-cr">
+                <input type="checkbox" name="checkbox" id="c2" value="proffesor-method">
+                <p>Proffesor's approach</p>
+            </div>
+            <div class="cb-cr">
+                <input type="checkbox" name="checkbox" id="c3" value="challenges">
+                <p>Challenges</p>
+            </div>
+
+            <label for="textarea">Any comments/ suggestion?</label>
+            <textarea name="textarea" id="textarea" cols="20" rows="5" placeholder="Your thoughts about us"></textarea>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </main>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
