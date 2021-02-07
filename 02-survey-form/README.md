@@ -33,3 +33,7 @@
 **User Story #15:** Inside the form element, I am presented with a textarea at the end for additional comments.
 
 **User Story #16:** Inside the form element, I am presented with a button with `id="submit"` to submit all my inputs.
+
+## Test Score:
+![image](https://user-images.githubusercontent.com/53931676/107158668-b747dc80-69b1-11eb-8285-35aa8fbc6bfc.png)
+
